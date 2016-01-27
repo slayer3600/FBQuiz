@@ -1,0 +1,30 @@
+﻿Mobile/responsive site geared towards the personality and factual quiz market on Facebook. Take one of many available quizzes, learn something new, and have fun doing it!
+
+http://www.onlinelogomaker.com
+https://www.revcontent.com
+https://angular-ui.github.io/bootstrap/
+
+<ul class="sharelinks">
+	<li><a href="https://www.facebook.com/sharer.php?u=<?php echo $url; ?>" title="Share on Facebook">Facebook</a></li>
+	<li><a href="https://twitter.com/intent/tweet?url=<?php echo $url; ?>&text=<?php echo $title; ?>" title="Tweet this page">Twitter</a></li>
+	<li><a href="https://plus.google.com/share?url=<?php echo $url; ?>" title="Share on Google+">Google+</a></li>
+	<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo $url; ?>&title=<?php echo $title; ?>&summary=<?php echo $desc;?>" title="Share on LinkenIn">LinkedIn</a></li>
+	<li><a href="https://www.tumblr.com/share/link?url=<?php echo $url; ?>" title="Share on Tumblr">Share on Tumblr</a></li>
+	<li><a href="http://del.icio.us/post?url=<?php echo $url; ?>" title="Share on Delicious">Delicious</a></li>
+</ul>
+
+<ul class="sharelinks">
+    <li><a href="#" ng-click="showPopUp('https://www.facebook.com/sharer.php?u=')" title="Share on Facebook">Facebook</a></li>
+    <li><a href="#" ng-click="showPopUp('https://twitter.com/intent/tweet?url=')" title="Tweet this page">Twitter</a></li>
+    <li><a href="#" ng-click="showPopUp('https://plus.google.com/share?url=')" title="Share on Google+">Google+</a></li>
+    <li><a href="#" ng-click="showPopUp('http://www.reddit.com/submit?url=')" title="Share on Reddit">Delicious</a></li>
+    <li><a href="#" ng-click="showPopUp('https://www.tumblr.com/share/link?url=')" title="Share on Tumblr">Share on Tumblr</a></li>
+    <li><a href="#" ng-click="showPopUp('http://del.icio.us/post?url=')" title="Share on Delicious">Delicious</a></li>
+</ul>
+
+https://developers.facebook.com/tools/debug/og/object/
+
+Add sites:
+revcontent
+adhitz
+https://www.nativeads.com/

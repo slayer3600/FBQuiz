@@ -1,0 +1,126 @@
+﻿<div class="modal-header">
+    <h3 class="modal-title">Add/Edit Question</h3>
+</div>
+
+<div class="modal-body">
+
+    <div class="form-group" ng-class="{'has-error':!isQuestionValid}">
+        <label for="txtQuestion">Question</label>
+        <textarea name="question" id="txtQuestion" ng-model="myQuestion" class="form-control" rows="4" placeholder="Enter question here..." ng-change="checkModel()"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="txtFileInput">Upload Image</label>
+        <input type="file" ng-model="myFile" accept="image/*" maxsize="200" onload="onImageLoad" base-sixty-four-input>
+        <p class=" help-block">This image will be shown with the question. It must be under 200 KB.</p>
+    </div>
+
+    <img ng-src="{{myBase64URL}}" alt="Question Image" width="200" ng-show="myBase64URL" />
+
+    <hr />
+
+    <p class="help-block">You must add at least the first answer choice and can enter up to six answer choices below. Leave unused choices blank and select the answer which is the correct choice.</p>
+
+    <div class="form-inline">
+
+        <div class="form-group">
+            <div class="radio">
+                <label class="radio-inline control-label">
+                    <input type="radio" name="optionsCorrect" id="blankRadio1" ng-model="mySelectedAnswer" value="1" aria-label="..." checked>
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group" ng-class="{'has-error':!isAnswerValid}">
+            <input name="answerChoice1" ng-model="myAnswerChoice1" type="text" class="form-control" id="txtAnswerChoice1" placeholder="Answer choice 1..." ng-change="checkModel()">
+        </div>
+
+    </div>
+
+    <div class="form-inline">
+
+        <div class="form-group">
+            <div class="radio">
+                <label class="radio-inline control-label">
+                    <input type="radio" name="optionsCorrect" id="blankRadio2" ng-model="mySelectedAnswer" value="2" aria-label="...">
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input ng-model="myAnswerChoice2" type="text" class="form-control" id="txtAnswerChoice2" placeholder="Answer choice 2...">
+        </div>
+
+    </div>
+
+    <div class="form-inline">
+
+        <div class="form-group">
+            <div class="radio">
+                <label class="radio-inline control-label">
+                    <input type="radio" name="optionsCorrect" id="blankRadio3" ng-model="mySelectedAnswer" value="3" aria-label="...">
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input ng-model="myAnswerChoice3" type="text" class="form-control" id="txtAnswerChoice3" placeholder="Answer choice 3...">
+        </div>
+
+    </div>
+
+    <div class="form-inline">
+
+        <div class="form-group">
+            <div class="radio">
+                <label class="radio-inline control-label">
+                    <input type="radio" name="optionsCorrect" id="blankRadio4" ng-model="mySelectedAnswer" value="4" aria-label="...">
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input ng-model="myAnswerChoice4" type="text" class="form-control" id="txtAnswerChoice4" placeholder="Answer choice 4...">
+        </div>
+
+    </div>
+
+    <div class="form-inline">
+
+        <div class="form-group">
+            <div class="radio">
+                <label class="radio-inline control-label">
+                    <input type="radio" name="optionsCorrect" id="blankRadio5" ng-model="mySelectedAnswer" value="5" aria-label="...">
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input ng-model="myAnswerChoice5" type="text" class="form-control" id="txtAnswerChoice5" placeholder="Answer choice 5...">
+        </div>
+
+    </div>
+
+    <div class="form-inline">
+
+        <div class="form-group">
+            <div class="radio">
+                <label class="radio-inline control-label">
+                    <input type="radio" name="optionsCorrect" id="blankRadio6" ng-model="mySelectedAnswer" value="6" aria-label="...">
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input ng-model="myAnswerChoice6" type="text" class="form-control" id="txtAnswerChoice6" placeholder="Answer choice 6...">
+        </div>
+
+    </div>
+
+</div>
+
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()" ng-disabled="!isModalValid">Save</button>
+    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+</div>
+

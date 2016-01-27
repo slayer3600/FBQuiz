@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{BCD20CC4-E825-4BD4-A617-E4001EC4F6D7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FB_Quiz</RootNamespace>
+    <AssemblyName>FB_Quiz</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FB_Quiz.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FB_Quiz.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\FB_Quiz.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Http.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.dll" />
+    <Content Include="crawlerredirect.aspx" />
+    <Content Include="css\listItem.css" />
+    <Content Include="css\radio.css" />
+    <Content Include="css\social-buttons-3.css" />
+    <Content Include="games\Builds.html" />
+    <Content Include="partials\questionModal.html" />
+    <Content Include="Global.asax" />
+    <Content Include="images\logo-lg.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\1.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\10.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\2.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\3.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\4.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\5.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\6.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\7.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\8.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\9.jpg" />
+    <Content Include="images\quizes\2016PresCandidateQuiz\title.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\1.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\10.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\2.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\3.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\4.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\5.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\6.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\7.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\8.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\9.jpg" />
+    <Content Include="images\quizes\catbreedfactquiz\Title.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\1.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\10.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\2.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\3.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\4.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\5.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\6.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\7.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\8.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\9.jpg" />
+    <Content Include="images\quizes\dogbreedfactquiz\title.jpg" />
+    <Content Include="images\quizes\nflLogoFactQuiz\1.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\10.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\2.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\3.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\4.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\5.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\6.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\7.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\8.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\9.gif" />
+    <Content Include="images\quizes\nflLogoFactQuiz\title.gif" />
+    <Content Include="images\quizes\pcquiz\1.jpg" />
+    <Content Include="images\quizes\pcquiz\10.jpg" />
+    <Content Include="images\quizes\pcquiz\2.jpg" />
+    <Content Include="images\quizes\pcquiz\3.jpg" />
+    <Content Include="images\quizes\pcquiz\4.png" />
+    <Content Include="images\quizes\pcquiz\5.jpg" />
+    <Content Include="images\quizes\pcquiz\6.jpg" />
+    <Content Include="images\quizes\pcquiz\7.jpg" />
+    <Content Include="images\quizes\pcquiz\8.jpg" />
+    <Content Include="images\quizes\pcquiz\9.jpg" />
+    <Content Include="images\quizes\pcquiz\title.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\1.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\10.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\2.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\3.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\4.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\5.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\6.png" />
+    <Content Include="images\quizes\whatdogbreedareyou\7.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\8.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\9.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\australianshepherd.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\cavalier.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\greyhound.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\poodle.jpg" />
+    <Content Include="images\quizes\whatdogbreedareyou\title.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Marketing.txt" />
+    <Content Include="partials\editquiz.html" />
+    <Content Include="partials\menu2.html" />
+    <Content Include="partials\privacypolicy.html" />
+    <Content Include="partials\quiz.html" />
+    <Content Include="partials\menu.html" />
+    <Content Include="partials\quiz_old.html" />
+    <Content Include="scripts\angular-base64-upload.min.js" />
+    <Content Include="scripts\angular-mocks.js" />
+    <Content Include="scripts\angular-base64-upload.min.js.map" />
+    <Content Include="games\Builds.unity3d" />
+    <None Include="scripts\angular.intellisense.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\quizController.js" />
+    <Content Include="scripts\smart-table.js" />
+    <Content Include="scripts\smart-table.min.js" />
+    <Content Include="scripts\ui-bootstrap-tpls-0.13.0.min.js" />
+    <Content Include="scripts\angular.min.js.map" />
+    <Content Include="data\NFLLogoFactQuiz.json" />
+    <Content Include="data\2016PresCandidateQuiz.json" />
+    <None Include="scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Code\QuizController.vb" />
+    <Content Include="App_Code\QuizMenuItem.vb" />
+    <Content Include="App_Code\Quiz.vb" />
+    <Compile Include="App_Start\WebApiConfig.vb" />
+    <Compile Include="crawlerredirect.aspx.designer.vb">
+      <DependentUpon>crawlerredirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="crawlerredirect.aspx.vb">
+      <DependentUpon>crawlerredirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\PublishProfiles\fb-quiz.pubxml" />
+    <Content Include="bin\System.Net.Http.Formatting.dll.refresh" />
+    <Content Include="bin\System.Web.Http.dll.refresh" />
+    <Content Include="bin\System.Web.Http.WebHost.dll.refresh" />
+    <Content Include="data\catBreedFactQuiz.json" />
+    <Content Include="data\dogBreedFactQuiz.json" />
+    <Content Include="data\PCQuiz.json" />
+    <Content Include="data\whatDogBreedAreYou.json" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\fb-quiz.pubxml" />
+    <None Include="My Project\PublishProfiles\FBQuiz.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="QuestionTemplate.xlsx" />
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="website.publishproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53985</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53985/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

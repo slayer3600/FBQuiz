@@ -1,0 +1,272 @@
+{
+  "Title": "What do you know about Pierce County, Washington?",
+  "Description": "From Tacoma to Puyallup, how much do you really know about Pierce County? Mr. Pierce himself would be quite impressed. Maybe you'll finally learn where the 'Aroma of Tacoma' comes from.",
+  "TitleScreenImageURL": "images/quizes/pcquiz/title.jpg",
+  "TitleScreenBase64Image": null,
+  "URL": "pcquiz",
+  "QuizType": "F",
+  "DateAdded": "2015-07-24T00:00:00",
+  "Questions": [
+    {
+      "id": "1",
+      "question": "What is the largest city in Pierce County?",
+      "imageURL": "images/quizes/pcquiz/1.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Puyallup",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Tacoma",
+          "isCorrect": true,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Gig Harbor",
+          "isCorrect": false,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "As of 2013, what is the population of Pierce County?",
+      "imageURL": "images/quizes/pcquiz/2.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "650,000",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "1,200,000",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "820,000",
+          "isCorrect": true,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Who was Pierce County named after (hint: this is his picture)?",
+      "imageURL": "images/quizes/pcquiz/3.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Franklin Pierce",
+          "isCorrect": true,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Charles Pierce",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Jeffrey Lee Pierce",
+          "isCorrect": false,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "From which neighboring county was Pierce County formed?",
+      "imageURL": "images/quizes/pcquiz/4.png",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "King County",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Kitsap County",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Thurston County",
+          "isCorrect": true,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Who is the current Pierce County Executive?",
+      "imageURL": "images/quizes/pcquiz/5.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Pat McCarthy",
+          "isCorrect": true,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Mark Lindquist",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Dan Roach",
+          "isCorrect": false,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "The Port of Tacoma is the _______ busiest port in North America.",
+      "imageURL": "images/quizes/pcquiz/6.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "22nd",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "86th",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "6th",
+          "isCorrect": true,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Who is Pierce County's largest employer?",
+      "imageURL": "images/quizes/pcquiz/7.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Boeing",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Multicare Health",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Joint Base Lewis McChord",
+          "isCorrect": true,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "What area contains Pierce County's wealthiest zip code?",
+      "imageURL": "images/quizes/pcquiz/8.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Tacoma",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Fox Island",
+          "isCorrect": true,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Puyallup",
+          "isCorrect": false,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "What is the tallest building in Pierce County?",
+      "imageURL": "images/quizes/pcquiz/9.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Frank Russell Building",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Washington Building",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Wells Fargo Plaza",
+          "isCorrect": true,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "What is the source of the 'Aroma of Tacoma'?",
+      "imageURL": null,
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Arsenic from the closed ASARCO copper smelter",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "Sulfur released from the Simpson Tacoma Kraft pulp and paper mill",
+          "isCorrect": true,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "Traffic congestion",
+          "isCorrect": false,
+          "choicePoints": 0
+        }
+      ]
+    }
+  ],
+  "Results": null
+}

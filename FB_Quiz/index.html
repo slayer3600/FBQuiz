@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="quizApp" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Take one of many available quizzes, learn something new, and have fun doing it!">
+    <base href="/" />
+
+    <title ng-bind="quizTitle"></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/radio.css" />
+    <link rel="stylesheet" href="css/social-buttons-3.css" />
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.min.css' type='text/css' media='all' />
+    
+
+    <style>
+        .nav, .pagination, .carousel, .panel-title a {cursor: pointer;}
+    </style>
+
+</head>
+<body>
+    <form name="myForm" id="top" novalidate>
+
+        <div id="fb-root"></div>
+
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1589991301289201";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+            window.fbAsyncInit = function () {
+                FB.XFBML.parse();
+            };
+
+            //Prod: 1589991301289201
+            //Test: 1609025769385754
+
+        </script>
+
+        <script>
+            window.twttr = (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                  t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function (f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+
+        <div class="container">
+
+            <a href="/"><img src="images/logo.png" /></a>
+
+            <!--<div class="fb-login-button pull-right" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="true" scope="public_profile,email,user_friends"></div>-->
+
+            <!--<div class="hidden-xs hidden-sm">
+                <iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=fb0f13-20&o=1&p=48&l=ur1&category=amazonhomepage&f=ifr&linkID=6BWFOZBH6JAYP73N" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+            </div>
+
+            <div class="hidden-md hidden-lg">
+                <iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=fb0f13-20&o=1&p=288&l=ur1&category=amazonhomepage&f=ifr&linkID=KLNDCBQF4EPBMHEK" width="320" height="50" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+            </div>-->
+
+            <div id="myView" ng-view></div>
+
+            <div class="alignleft">
+                <script type='text/javascript'>
+                    amzn_assoc_ad_type = 'banner';
+                    amzn_assoc_tracking_id = 'fb0f13-20';
+                    amzn_assoc_marketplace = 'amazon';
+                    amzn_assoc_region = 'US';
+                    amzn_assoc_placement = 'assoc_banner_placement_default';
+                    amzn_assoc_linkid = 'IN23TSNAENIPLIRD';
+                    amzn_assoc_campaigns = 'gift_certificates';
+                    amzn_assoc_banner_type = 'category';
+                    amzn_assoc_isresponsive = 'true';
+                </script>
+
+                <script src='//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1'></script>
+
+            </div>
+
+        </div>
+
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js"></script>
+    <script src="scripts/ui-bootstrap-tpls-0.13.0.min.js"></script>  
+    <script src="scripts/smart-table.min.js"></script>
+    <script src="scripts/angular-base64-upload.min.js"></script>
+    <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-64551723-1', 'auto');
+    </script>
+    <script src="scripts/quizController.js"></script>
+    <script>
+    window.___gcfg = {
+        parsetags: 'explicit'
+    };
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.min.js'></script>
+
+</body>
+</html>

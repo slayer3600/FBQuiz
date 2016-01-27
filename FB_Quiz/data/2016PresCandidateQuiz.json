@@ -1,0 +1,113 @@
+{
+    "Title": "Who's running for president in 2016?",
+    "Description": "More than a dozen Republicans and a handful of Democrats have announced they are running for their party's 2016 presidential nomination. What do you really know about the candidates thus far?",
+    "TitleScreenImageURL": "images/quizes/2016PresCandidateQuiz/title.jpg",
+    "MessagePerfectScore": "You got a perfect score!",
+    "Message80100Score": "You did well.",
+    "Message6080Score": "You did okay.",
+    "MessageFailedScore": "Try again.",
+    "QuizType": "F",
+    "DateAdded": "07/10/2015",
+    "Questions": [
+        {
+            "id": 1,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/1.jpg",
+            "question": "Which candidate grew up in a single parent home in Detroit and did poorly in school, yet became a neurosurgeon at Johns Hopkins?",
+            "answerChoices": [
+                { "choiceText": "Ben Carson", "isCorrect": true, "choicePoints": 0 },
+                { "choiceText": "Bernie Sanders", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Lindsey Graham", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 2,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/2.jpg",
+            "question": "Which statement best describes the most notable accomplishment of Democratic candidate Bernie Sanders?",
+            "answerChoices": [
+                { "choiceText": "Governor of Vermont", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Longest-serving independent in U.S. congressional history", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "Former CEO and President of Ben & Jerry's", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 3,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/3.jpg",
+            "question": "Which Republican candidate ran for Governor of New York against three-term incumbent Mario Cuomo, defeating him by over a three-point margin?",
+            "answerChoices": [
+                { "choiceText": "Lindsey Graham", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "George Pataki", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "Carly Fiorina", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 4,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/4.jpg",
+            "question": "Which candidate was appointed as US attorney in 2001 despite having never practiced in a federal courtroom before?",
+            "answerChoices": [
+                { "choiceText": "Jeb Bush", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Martin O'Malley", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Chris Christie", "isCorrect": true, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 5,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/5.jpg",
+            "question": "Which Republican candidate supported Democrat Barack Obama's 2008 presidential campaign?",
+            "answerChoices": [
+                { "choiceText": "Lincoln Chafee", "isCorrect": true, "choicePoints": 0 },
+                { "choiceText": "Ted Cruz", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Rand Paul", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 6,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/6.jpg",
+            "question": "Democrat Carly Fiorina was the CEO at which technology company where she was also named by Fortune Magazine the most powerful woman in business?",
+            "answerChoices": [
+                { "choiceText": "Verizon", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Hewlett-Packard", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "Oracle", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 7,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/7.jpg",
+            "question": "On November 28, 2006, at a White House reception for those newly elected to Congress, this candidate did not choose to wait in the line to have his picture taken with president Bush. The president approached him later and asked him, \"How's your boy?\", referring to his son, a Marine serving in Iraq. He replied \"I'd like to get them out of Iraq, Mr. President.\" Bush responded, \"That's not what I asked you. How's your boy?\" He responded, \"That's between me and my boy, Mr. President.\"",
+            "answerChoices": [
+                { "choiceText": "Jim Webb", "isCorrect": true, "choicePoints": 0 },
+                { "choiceText": "Bernie Sanders", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Lincoln Chafee", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 8,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/8.jpg",
+            "question": "Which candidate is known in the Senate for his particularly strong advocacy of a strong national defense, his support of the military, and as an advocate of strong United States leadership in world affairs",
+            "answerChoices": [
+                { "choiceText": "Mike Huckabee", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Lindsey Graham", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "Bobby Jindal", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 9,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/9.jpg",
+            "question": "What is Democratic candidate Bobby Jindal's given first name?",
+            "answerChoices": [
+                { "choiceText": "Ramesh", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Piyush", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "Sanjay", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 10,
+            "imageURL": "images/quizes/2016PresCandidateQuiz/10.jpg",
+            "question": "As of July 2015, how many candidates have entered the race for the Republican nomination?",
+            "answerChoices": [
+                { "choiceText": "8", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "15", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "20", "isCorrect": false, "choicePoints": 0  }
+            ]
+        }
+    ]
+}

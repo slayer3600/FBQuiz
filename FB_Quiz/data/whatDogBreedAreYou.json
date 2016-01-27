@@ -1,0 +1,144 @@
+{
+    "Title": "Which dog breed are you?",
+    "Description": "Are you bouncing off the walls or napping all day? Maybe you are the life of the party or prefer your alone time. Answer these questions to find out what breed of dog you would be!",
+    "TitleScreenImageURL": "images/quizes/whatdogbreedareyou/title.jpg",
+    "MessagePerfectScore": "You got a perfect score!",
+    "Message80100Score": "You did well.",
+    "Message6080Score": "You did okay.",
+    "MessageFailedScore": "Try again.",
+    "QuizType": "P",
+    "DateAdded": "06/01/2015",
+    "Questions": [
+        {
+            "id": 1,
+            "imageURL": "images/quizes/whatdogbreedareyou/1.jpg",
+            "question": "When I come home from work, my significant other should...",
+            "answerChoices": [
+                { "choiceText": "Wave and give a slight nod of the head.", "isCorrect": true, "choicePoints": 10 },
+                { "choiceText": "Run to greet me with a big hug and kiss.", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "Grab me a beer and bring me my slippers.", "isCorrect": false, "choicePoints": 20  }
+            ]
+        },
+        {
+            "id": 2,
+            "imageURL": "images/quizes/whatdogbreedareyou/2.jpg",
+            "question": "When buying gifts for my friends...",
+            "answerChoices": [
+                { "choiceText": "I always know exactly what to get and where to get it.", "isCorrect": true, "choicePoints": 20 },
+                { "choiceText": "I'd rather not.", "isCorrect": false, "choicePoints": 10  },
+                { "choiceText": "I drive across town comparing prices to find the perfect gift.", "isCorrect": false, "choicePoints": 30  }
+            ]
+        },
+        {
+            "id": 3,
+            "imageURL": "images/quizes/whatdogbreedareyou/3.jpg",
+            "question": "When watching a movie...",
+            "answerChoices": [
+                { "choiceText": "I like the lights low and someone to cuddle with.", "isCorrect": true, "choicePoints": 20 },
+                { "choiceText": "I keep a running commentation going of everything I'm thinking.", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "I'm all about the snacks!", "isCorrect": false, "choicePoints": 10  }
+            ]
+        },
+        {
+            "id": 4,
+            "imageURL": "images/quizes/whatdogbreedareyou/4.jpg",
+            "option1": "Anything sounds good.",
+            "question": "When eating out...",
+            "answerChoices": [
+                { "choiceText": "Anything sounds good.", "isCorrect": true, "choicePoints": 10 },
+                { "choiceText": "I know what I want and don't try and talk me out of it.", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "I like to take turns deciding where to go.", "isCorrect": false, "choicePoints": 20  }
+            ]
+        },
+        {
+            "id": 5,
+            "imageURL": "images/quizes/whatdogbreedareyou/5.JPG",
+            "question": "When I go on vacation...",
+            "answerChoices": [
+                { "choiceText": "I enjoy laying by the pool with a good book.", "isCorrect": true, "choicePoints": 10 },
+                { "choiceText": "I'm an adrenaline junky! Bring on the fun!", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "I'll do anything. As long as I'm with my family I don't care.", "isCorrect": false, "choicePoints": 20  }
+            ]
+        },
+        {
+            "id": 6,
+            "imageURL": "images/quizes/whatdogbreedareyou/6.png",
+            "question": "My favorite sports are...",
+            "answerChoices": [
+                { "choiceText": "Team sports.", "isCorrect": true, "choicePoints": 20 },
+                { "choiceText": "Individual, competitive sports.", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "Is sleeping a sport?", "isCorrect": false, "choicePoints": 10  }
+            ]
+        },
+        {
+            "id": 7,
+            "imageURL": "images/quizes/whatdogbreedareyou/7.jpg",
+            "question": "While on the job...",
+            "answerChoices": [
+                { "choiceText": "I stay focused and get the job done.", "isCorrect": true, "choicePoints": 10 },
+                { "choiceText": "I jump from task to task.", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "I'm always willing to stay late or help a co-worker.", "isCorrect": false, "choicePoints": 20  }
+            ]
+        },
+        {
+            "id": 8,
+            "imageURL": "images/quizes/whatdogbreedareyou/8.jpg",
+            "question": "When studying for a big test...",
+            "answerChoices": [
+                { "choiceText": "I prefer to study in a group.", "isCorrect": true, "choicePoints": 20 },
+                { "choiceText": "I need quiet.", "isCorrect": false, "choicePoints": 10  },
+                { "choiceText": "I don't study.", "isCorrect": false, "choicePoints": 30  }
+            ]
+        },
+        {
+            "id": 9,
+            "imageURL": "images/quizes/whatdogbreedareyou/9.jpg",
+            "question": "When my mom calls...",
+            "answerChoices": [
+                { "choiceText": "As long as I grunt every now and then, she never suspects a thing.", "isCorrect": true, "choicePoints": 10 },
+                { "choiceText": "I can wash the dishes, start the laundry, fix a flat tire, and catch every detail.", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "I love taking the time to catch up.", "isCorrect": false, "choicePoints": 20  }
+            ]
+        },
+        {
+            "id": 10,
+            "imageURL": "images/quizes/whatdogbreedareyou/10.jpg",
+            "question": "When I look my best...",
+            "answerChoices": [
+                { "choiceText": "I still need someone to tell me.", "isCorrect": true, "choicePoints": 20 },
+                { "choiceText": "When you're hot, you're hot!", "isCorrect": false, "choicePoints": 30  },
+                { "choiceText": "That's not really my thing.", "isCorrect": false, "choicePoints": 10  }
+            ]
+        }
+    ],
+    "Results": [
+        {
+            "name": "Greyhound",
+            "minScore": 100,
+            "maxScore": 149,
+            "imageURL": "images/quizes/whatdogbreedareyou/greyhound.jpg",
+            "description": "Although you always have good intentions, you often have more things on your plate than you can handle. Your competitive spirit sometimes can get you into trouble. And let's be real, beneath your sleek exterior lies a couch potato at heart!"
+        },
+        {
+            "name": "Poodle",
+            "minScore": 150,
+            "maxScore": 199,
+            "imageURL": "images/quizes/whatdogbreedareyou/poodle.jpg",
+            "description": "You're sophisticated and intelligent. Your friendly personality guarantees you're always the center of attention. And let's face it, although you're a little high maintenance, everyone seems to think you're worth it!"
+        },
+        {
+            "name": "Cavalier King Charles Spaniel",
+            "minScore": 200,
+            "maxScore": 249,
+            "imageURL": "images/quizes/whatdogbreedareyou/cavalier.jpg",
+            "description": "You're eager to please and always look out for everyone's best interest. You enjoy being in the spotlight but you're wise enough to know when to step out and let others make fools of themselves.  But let's not kid ourselves, we all know whose getting their belly rubbed at the end of the night!"
+        },
+        {
+            "name": "Australian Shepherd",
+            "minScore": 250,
+            "maxScore": 300,
+            "imageURL": "images/quizes/whatdogbreedareyou/australianshepherd.jpg",
+            "description": "You energy level is unrelenting. When given a task, you're Johnny on the spot. Everyone is confident that anything you do results in a job well done. Just back away from the coffee before someone gets hurt!"
+        }
+    ]
+}

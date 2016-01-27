@@ -1,0 +1,37 @@
+﻿<style>
+    .thumbnail {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        background: rgb(242,245,246);
+        background: -moz-linear-gradient(-45deg, rgba(242,245,246,1) 0%, rgba(227,234,237,1) 37%, rgba(200,215,220,1) 100%);
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(242,245,246,1)), color-stop(37%,rgba(227,234,237,1)), color-stop(100%,rgba(200,215,220,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%);
+        background: linear-gradient(135deg, rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=1 );
+        -moz-box-shadow: 4px 4px 10px 4px rgba(119, 119, 119, 0.75);
+        -webkit-box-shadow: 4px 4px 10px 4px rgba(119, 119, 119, 0.75);
+        box-shadow: 4px 4px 10px 4px rgba(119, 119, 119, 0.75);
+    }
+</style>
+
+<h2>Choose from any one of the quizzes below.</h2>
+
+<div class="row">
+    <div class="col-sm-4 col-md-3" ng-repeat="item in menuItems.MenuItems | orderBy:'-DateAdded'">
+        <a ng-click="analytics(item)" href="{{item.URL}}" style="text-decoration:none;">
+            <div class="thumbnail">
+
+                <h3>{{item.Title}}</h3>
+
+                <img ng-src="{{item.TitleScreenImageURL}}" class="img-rounded" style="width: 150px; height: 150px;" />
+
+                <p>{{item.Description}}</p>
+
+            </div>
+        </a>
+    </div>
+
+</div>

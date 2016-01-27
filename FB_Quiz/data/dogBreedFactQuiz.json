@@ -1,0 +1,113 @@
+{
+    "Title": "How well do you know your dog breeds?",
+    "Description": "Sure you know what a Chihuahua is, but what about a Griffon Bruxellois? See if you are a true expert by taking this quiz and testing your dog breed knowledge.",
+    "TitleScreenImageURL": "images/quizes/dogbreedfactquiz/title.jpg",
+    "MessagePerfectScore": "You got a perfect score!",
+    "Message80100Score": "You did well.",
+    "Message6080Score": "You did okay.",
+    "MessageFailedScore": "Try again.",
+    "QuizType": "F",
+    "DateAdded": "06/01/2015",
+    "Questions": [
+        {
+            "id": 1,
+            "imageURL": "images/quizes/dogbreedfactquiz/1.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Sheep Dog", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "St. Bernard", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "German Shepard", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 2,
+            "imageURL": "images/quizes/dogbreedfactquiz/2.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Shar Pei", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Afghan Hound", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Akita", "isCorrect": true, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 3,
+            "imageURL": "images/quizes/dogbreedfactquiz/3.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Jack Russell Terrier", "isCorrect": true, "choicePoints": 0 },
+                { "choiceText": "Kanni", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Australian Shepherd", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 4,
+            "imageURL": "images/quizes/dogbreedfactquiz/4.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Himalayan Sheepdog", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Great Dane", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Old English Sheepdog", "isCorrect": true, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 5,
+            "imageURL": "images/quizes/dogbreedfactquiz/5.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Griffon Bruxellois", "isCorrect": true, "choicePoints": 0 },
+                { "choiceText": "Greenland Dog", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Lakeland Terrier", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 6,
+            "imageURL": "images/quizes/dogbreedfactquiz/6.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Bolognese", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Bichon Frise", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Miniature Schnauzer", "isCorrect": true, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 7,
+            "imageURL": "images/quizes/dogbreedfactquiz/7.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Elo", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Tibetan Spaniel", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Pug", "isCorrect": true, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 8,
+            "imageURL": "images/quizes/dogbreedfactquiz/8.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Affenpinscher", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Whippet", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "Maltese", "isCorrect": false, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 9,
+            "imageURL": "images/quizes/dogbreedfactquiz/9.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Labrador", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Mudi", "isCorrect": false, "choicePoints": 0  },
+                { "choiceText": "Weimaraner", "isCorrect": true, "choicePoints": 0  }
+            ]
+        },
+        {
+            "id": 10,
+            "imageURL": "images/quizes/dogbreedfactquiz/10.jpg",
+            "question": "What breed of dog is this?",
+            "answerChoices": [
+                { "choiceText": "Afghan Hound", "isCorrect": false, "choicePoints": 0 },
+                { "choiceText": "Portuguese Water Dog", "isCorrect": true, "choicePoints": 0  },
+                { "choiceText": "Leonberger", "isCorrect": false, "choicePoints": 0  }
+            ]
+        }
+    ]
+}

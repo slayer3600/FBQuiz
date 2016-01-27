@@ -1,0 +1,76 @@
+{
+  "Title": "Is this finally a complete solutiuon?",
+  "Description": "Hope with daughters.",
+  "TitleScreenImageURL": "images/quizes/imagetest/title.jpg",
+  "TitleScreenBase64Image": null,
+  "URL": "imagetest",
+  "QuizType": "F",
+  "DateAdded": "2015-07-18T00:00:00",
+  "Questions": [
+    {
+      "id": "1",
+      "question": "Who is this?",
+      "imageURL": "images/quizes/imagetest/1.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Hope",
+          "isCorrect": true,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "h",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "k",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "4",
+          "choiceText": "kk",
+          "isCorrect": false,
+          "choicePoints": 0
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Who is this?",
+      "imageURL": "images/quizes/imagetest/2.jpg",
+      "base64Image": null,
+      "answerChoices": [
+        {
+          "id": "1",
+          "choiceText": "Grant",
+          "isCorrect": true,
+          "choicePoints": 0
+        },
+        {
+          "id": "2",
+          "choiceText": "jj",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "3",
+          "choiceText": "hg",
+          "isCorrect": false,
+          "choicePoints": 0
+        },
+        {
+          "id": "4",
+          "choiceText": "g",
+          "isCorrect": false,
+          "choicePoints": 0
+        }
+      ]
+    }
+  ],
+  "Results": null
+}

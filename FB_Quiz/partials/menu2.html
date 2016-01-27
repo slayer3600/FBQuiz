@@ -1,0 +1,75 @@
+﻿<style>
+    .panel {
+        -moz-box-shadow: 4px 4px 10px 4px rgba(119, 119, 119, 0.75);
+        -webkit-box-shadow: 4px 4px 10px 4px rgba(119, 119, 119, 0.75);
+        box-shadow: 4px 4px 10px 4px rgba(119, 119, 119, 0.75);
+    }
+
+    ul {
+        list-style-position: inside;
+        padding-left: 0;
+    }
+</style>
+
+<a id="twitterPost"></a>
+
+<div class="g-plus"
+     data-action="share"
+     data-annotation="bubble">
+</div>
+
+<div class="fb-like"
+     data-share="true"
+     data-show-faces="true"
+     style="vertical-align:top;">
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-10 col-md-10">
+        <div ng-repeat="item in menuItems | orderBy:'-DateAdded'">
+            <a ng-click="analytics(item)" href="{{item.URL}}" style="text-decoration:none;">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{item.Title}} <span class="label label-success pull-right" ng-hide="!isNew(item.DateAdded)">New</span></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div id="quizImage">
+                            <img ng-src="{{item.TitleScreenImageURL}}" class="pull-left img-responsive img-rounded" style="height: 100px; margin-right:1em" />
+                        </div>
+                        <div id="quizDescription" style="padding-left:10px;text-decoration:none">
+                            {{item.Description}}
+                        </div>
+                        <div id="quizCreated">
+                            <h5><small>Created: {{item.DateAdded | date: 'MM/dd/yyyy'}}</small></h5>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div ng-if="$first || $last">
+                <a href="http://www.kqzyfj.com/click-7850069-10391834-1361396707000" target="_blank">Meet Singles Who Share Your Faith and Values. Start Your Free Trial at ChristianCafe.com.</a><img src="http://www.awltovhc.com/image-7850069-10391834-1361396707000" width="1" height="1" border="0" /><br /><br />
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-10 col-md-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Links</h3>
+            </div>
+            <div class="panel-body">
+                <ul>
+                    <li ng-if="isAuthorized"><a href="/editquiz/new">Edit Quiz</a></li>
+                    <li><a href="privacypolicy">Privacy Policy</a></li>
+                    <li><a href="mailto:slayer3600@hotmail.com">Contact</a></li>
+                </ul>
+                ©&nbsp;2015 popquizz.es
+            </div>
+        </div>
+        <div class="hidden-xs hidden-sm">
+            <iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=fb0f13-20&o=1&p=14&l=ur1&category=mp3&f=ifr&linkID=VWHMXCKZNNUFTGQ5" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe><br />
+        </div>
+    </div>
+
+</div>

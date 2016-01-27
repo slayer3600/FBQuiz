@@ -104,7 +104,6 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="bin\FB_Quiz.dll" />
     <Content Include="bin\System.Net.Http.Formatting.dll" />
     <Content Include="bin\System.Web.Helpers.dll" />
@@ -201,7 +200,6 @@
     <Content Include="scripts\angular-mocks.js" />
     <Content Include="scripts\angular-base64-upload.min.js.map" />
     <Content Include="games\Builds.unity3d" />
-    <Content Include="README.md" />
     <None Include="scripts\angular.intellisense.js" />
     <Content Include="scripts\angular.js" />
     <Content Include="scripts\angular.min.js" />
@@ -213,7 +211,6 @@
     <Content Include="data\NFLLogoFactQuiz.json" />
     <Content Include="data\2016PresCandidateQuiz.json" />
     <None Include="scripts\_references.js" />
-    <Content Include="WE-Palette.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
